@@ -5,7 +5,7 @@ function App() {
     <div >
       <HeaderMenu/>
       <MainMenu/>
-      <div> Footer</div>
+      <FooterMenu/>
     </div>
   );
 }
@@ -51,5 +51,15 @@ function Pizza (){
 
   </div>
     
+  )
+}
+
+
+function FooterMenu(){
+  return(
+    <div>
+      <h2> we're open untill 22 come visit us or order online</h2>
+      <button> order </button>
+    </div>
   )
 }
