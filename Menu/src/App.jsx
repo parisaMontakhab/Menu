@@ -42,12 +42,12 @@ function MainMenu() {
 
 function Pizza() {
   return (
-    <div className="grid grid-cols-2 mx-auto">
-      <div className="w-48 rounded-lg ">
+    <div className="grid grid-cols-2 mx-auto mb-5">
+      <div className=" rounded-lg ">
         <img
           src="../public/images/fochaccia.jpg"
           alt="pizza fochaccia"
-          className="rounded-full bg-stone-500 shadow-lg shadow-stone-500/100 "
+          className="rounded-full bg-stone-500 shadow-lg shadow-stone-500/100 w-56 "
         />
       </div>
       <div className="mt-20 w-64 text-pretty text-stone-500">
@@ -70,7 +70,7 @@ function FooterMenu() {
         we're open untill 22 come visit us or order online !
       </h2>
       <button
-        className=" transition  ease-in-out delay-150 w-40 bg-red-300 p-4 rounded-3xl mt-10 text-stone-600 font-semibold text-xl 
+        className=" transition  ease-in-out delay-150 w-40 bg-red-300 p-4 rounded-3xl mt-10 text-stone-600 font-semibold text-xl drop-shadow-md 
       hover:bg-red-400 hover:text-stone-700 hover:-translate  duration-300 "
       >
         {" "}
