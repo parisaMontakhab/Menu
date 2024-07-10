@@ -45,9 +45,9 @@ const pizzaList = [
 
 export default function MainMenu() {
   return (
-    <div className="grid  grid-rows-3 grid-flow-col gap-4 text-center mt-20">
+    <ul className="grid  grid-rows-3 grid-flow-col gap-4 text-center mt-20">
       {pizzaList.map((Pizza) => (
-        <div key={Pizza.id} className="grid grid-cols-2 mx-auto mb-5">
+        <li key={Pizza.id} className="grid grid-cols-2 mx-auto mb-5">
           <div className=" rounded-lg ">
             <img
               src={Pizza.img}
@@ -64,9 +64,9 @@ export default function MainMenu() {
             </p>
             <p className="mt-5 font-bold"> {Pizza.price} $</p>
           </div>
-        </div>
+        </li>
       ))}
-    </div>
+    </ul>
   );
 }
 
